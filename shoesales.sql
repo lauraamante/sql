@@ -34,3 +34,6 @@ WHERE produto = 'Tamanco';
 -- deleta todos os itens com o id = 5
 DELETE FROM vendas
 WHERE id = 5;
+
+SELECT * FROM vendas
+ORDER BY produto;
