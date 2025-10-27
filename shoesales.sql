@@ -17,6 +17,7 @@ VALUES
 (5, 'Chinelo', 25.50, '2025-15-08'),
 (6, 'Coturno', 79.99, '2025-23-11');
 
+
 -- Seleciona todos os valores em que o preço é maior que 100,00
 SELECT * FROM vendas
 WHERE preco > 100.00;
