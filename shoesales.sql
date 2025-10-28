@@ -1,4 +1,4 @@
--- Cria a tabela vendas
+--Cria a tabela vendas
 CREATE TABLE vendas(
   id INT PRIMARY KEY,
   produto TEXT,
@@ -7,7 +7,7 @@ CREATE TABLE vendas(
   data_venda TEXT
 );
 
--- Insere os produtos e informações adicionais
+--Insere os produtos e infos adicionais
 INSERT INTO vendas(id, produto, preco, quantidade, data_venda)
 VALUES
 (1, 'Sandália Anabela', 78.90, 12, '2025-12-05'),
@@ -18,7 +18,7 @@ VALUES
 (6, 'Coturno', 79.99, '2025-23-11');
 
 
--- Seleciona todos os valores em que o preço é maior que 100,00
+--Seleciona todos os valores em que o preço é maior que 100,00
 SELECT * FROM vendas
 WHERE preco > 100.00;
 
@@ -26,7 +26,7 @@ WHERE preco > 100.00;
 SELECT * FROM vendas
 ORDER BY data_venda DESC;
 
--- Atualiza o valor de todos os produtos que possuem o nome "Tamanco"
+-- Atualiza o valor de todos os produtos com o nome "Tamanco"
 UPDATE vendas
 SET preco = 50.00
 WHERE produto = 'Tamanco';
