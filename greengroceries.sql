@@ -1,3 +1,4 @@
+--Cria a tabela verdureira
 CREATE TABLE verdureira (
   id INT PRIMARY KEY,
   produto TEXT,
@@ -5,6 +6,7 @@ CREATE TABLE verdureira (
   preco REAL
   );
 
+-- Coloca os valores (20)
 INSERT INTO verdureira (id, produto, categoria, preco)
 VALUES
 (1, "Banana", "Fruta", 2.00),
@@ -28,10 +30,12 @@ VALUES
 (19, "Alcachofra", "Fruta", 7.98),
 (20, "Pitaia", "Fruta", 12.89);
 
+--Seleciona os produtos identificados como verdura ou fruta
 SELECT * FROM verdureira
 WHERE 'categoria' = 'Verdura' OR 'categoria' = 'Fruta'
 ORDER BY produto ASC;
 
+-- Muda o preço do pruduto de id 9 para 2.10
 UPDATE verdureira
 SET preco = 2.10
 WHERE id = 9;
