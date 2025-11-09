@@ -4,7 +4,7 @@ CREATE TABLE produtos(
    nome TEXT,
    preco REAL,
    categoria TEXT
-);
+);  
  
 -- Inserindo produtos na tabela
 INSERT INTO produtos (id, nome, preco, categoria)
