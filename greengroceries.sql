@@ -6,7 +6,6 @@ CREATE TABLE verdureira (
   preco REAL
 );
 
-
 -- Insere os valores (20)
 INSERT INTO verdureira (id, produto, categoria, preco)
 VALUES
