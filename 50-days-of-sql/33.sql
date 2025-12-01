@@ -5,9 +5,10 @@ SELECT
 FROM 
     categories c
     
+--Liga as diferentes categorias, nome da categoria e preços na mesma linha
 JOIN 
     products p ON p.category_id = c.category_id
-    
+
 GROUP BY 
     c.category_name
     
