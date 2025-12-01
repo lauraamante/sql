@@ -5,3 +5,5 @@ SELECT
 
 FROM 
     categories c
+JOIN 
+    products p ON p.category_id = c.category_id
