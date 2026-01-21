@@ -9,7 +9,7 @@
 CREATE TABLE people (
     name TEXT
 );
-
+ 
 INSERT INTO people (name) VALUES
     ('Alice'),
     ('Bohdan'),
