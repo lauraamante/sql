@@ -4,7 +4,7 @@
 -- One for Do-yun, one for me.
 
 --If you don't know the person's name, you will say you instead.
--- One for you, one for me.
+-- One for you, one for me.  
 ----------------------------------------------------------------------------------------
 CREATE TABLE people (
     name TEXT
