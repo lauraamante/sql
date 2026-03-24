@@ -11,6 +11,9 @@ CREATE TABLE pessoas(
   sexo enum(M,F) -- Só permite 2 tipos
   peso decimal (5,2) -- define que vão haver 5 números, sendo dois após a vírgula
   altura (3,2);
+  nacionalidade VARCHAR(20) DEFAULT 'BR',
+primary key (id) 
+) DEFAULT CHARSET = utf8;
 
 
 
